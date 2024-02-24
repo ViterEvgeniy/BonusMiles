@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         int price = 163;
-        if (price > 20) {
+        if (price >= 20) {
             int oneBonus = 20;
         int bonusMiles = (price/20);
         System.out.println("Бонусные мили: " + bonusMiles);
