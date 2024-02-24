@@ -5,8 +5,8 @@ public class Main {
         int price = 163;
         if (price >= 20) {
             int oneBonus = 20;
-        int bonusMiles = (price/20);
-        System.out.println("Бонусные мили: " + bonusMiles);
+            int bonusMiles = (price / 20);
+            System.out.println("Бонусные мили: " + bonusMiles);
         }
     }
 
